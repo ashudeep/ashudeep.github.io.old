@@ -280,3 +280,11 @@ RewriteCond %{HTTP_REFERER} ^http://(www\.)?(-|.)zindagi(-|.).*$ [NC]
 RewriteRule .* - [F]
 deny from 217.46.255.241
 deny from 65.112.44.225
+## STOP Semalt.com Crawler Spam
+RewriteCond %{HTTP_REFERER} semalt\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} uptime\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} top1\-seo\-service\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} free\-video\-tool\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} responsive\-test\.net [NC,OR]
+RewriteCond %{HTTP_REFERER} keywords\-monitoring\-your\-success\.com [NC]
+RewriteRule .* - [F]
