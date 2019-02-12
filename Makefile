@@ -30,8 +30,8 @@ contact.html:	contact.jemdoc mysite.conf MENU
 courses.html:	courses.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o courses.html courses
 
-resume.html:	Resume_Ashudeep.pdf
-	pdf2htmlEX Resume_Ashudeep.pdf resume.html
+# resume.html:	Resume_Ashudeep.pdf
+# 	pdf2htmlEX Resume_Ashudeep.pdf resume.html
 
 clean:
 	# cp resume.html resume.bak

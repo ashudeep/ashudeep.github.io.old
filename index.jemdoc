@@ -14,14 +14,13 @@ Third Year Ph.D. student
 <li><a href="http://www.linkedin.com/in/ashudeepsingh" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
 </ul>}}
 
-*New* Our paper on [https://arxiv.org/abs/1802.07281 *Fairness of Exposure in Rankings*] has been accepted to [http://kdd.org/kdd2018/ KDD 2018]. \n
-*New* Our new paper on [https://arxiv.org/abs/1802.07281 *Fairness of Exposure in Rankings* is up on arXiv]. \n
-*New* Spotlight Presentation and Workshop paper on "[http://www.k4all.org/wp-content/uploads/2017/09/WPOC2017_paper_9.pdf Equality of Opportunity in Rankings]" at [http://www.k4all.org/event/prioritising/ Workshop on Prioritizing Online Content] at [https://nips.cc/Conferences/2017 NIPS 2017].\n
-*New* Workshop paper on "[pubs/unbiased-embeddings.pdf Learning item embeddings using biased feedback]" at [https://sites.google.com/view/causalnips2017 Causal Inference and Machine Learning for Intelligent Decision Making Workshop] at [https://nips.cc/Conferences/2017 NIPS 2017]
+*New* Our new paper on [https://arxiv.org/abs/1902.04056 Policy Learning for Fairness in Ranking] is up on arXiv. We present a policy optimization approach for learning-to-rank and apply it to learning in the presence of fairness constraints. \n
+Our paper on [https://arxiv.org/abs/1802.07281 *Fairness of Exposure in Rankings*] has been accepted to [http://kdd.org/kdd2018/ KDD 2018]. \n
+Our paper on [https://arxiv.org/abs/1802.07281 *Fairness of Exposure in Rankings* is up on arXiv]. \n
 ~~~
 
 == About Me
-I am a third year Ph.D. student at the department of Computer Science at Cornell University. I work in the area of Machine Learning with Prof. *[http://joachims.org Thorsten Joachims]*. I am particularly interested in Machine learning for interactive systems. My research ideas touch the areas of Counterfactual Learning and Inference, and Personalization for interactive machine learning algorithms. I have recently been focusing on Fairness, Interpretability and Transparency aspects of such Machine Learning algorithms.
+I am a Ph.D. student at the department of Computer Science at Cornell University. I work in the area of Machine Learning with Prof. *[http://joachims.org Thorsten Joachims]*. I am particularly interested in Machine learning for interactive systems. My research ideas touch the areas of Counterfactual Learning and Inference, and Personalization for interactive machine learning algorithms. I have recently been focusing on Fairness, Interpretability and Transparency aspects of such Machine Learning algorithms.
 
 In the past, I completed my B.Tech.-M.Tech. dual degree in IIT Kanpur (India) where I worked with Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]. During my undergrad, I also worked with Prof. [http://www.cs.cmu.edu/~cprose/ Carolyn Rosé] on studying natural language aspects of collaborative learning agents at Carnegie Mellon University as a summer intern. I spent most of my childhood in the beautiful city of [http://en.wikipedia.org/wiki/Chandigarh Chandigarh] and then spent five wonderful years of my life at [www.iitk.ac.in IIT Kanpur] before moving to Cornell to start my PhD.
 
