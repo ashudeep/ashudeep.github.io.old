@@ -26,13 +26,76 @@ $(document).ready(function(){
 <td id="layout-menu">
 <div class="menu-category"><div class="menu-head">Ashudeep Singh</div></div>
 <div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="pubs.html" class="current">Publications</a></div>
 <div class="menu-item"><a href="Resume_Ashudeep.pdf">Resume</a></div>
 <div class="menu-item"><a href="contact.html">Contact</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Publications</h1>
+<div id="subtitle">Marco Morik, Ashudeep Singh, Jessica Hong, Thorsten Joachims. <br />
+Controlling Fairness and Bias in Dynamic Ranking. <br />
+Accepted to ACM SIGIR 2020.<br /></div>
 </div>
+<p>Ashudeep Singh and Thorsten Joachims. <br />
+<a href="https://papers.nips.cc/paper/8782-policy-learning-for-fairness-in-ranking">Policy Learning for Fairness in Ranking</a>. <br />
+In Proceedings of Neural Information Processing Systems (NeurIPS) 2019.</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Conventional Learning-to-Rank (LTR) methods optimize the utility of the rankings to the users, but they are oblivious to their impact on the ranked items. However, there has been a growing understanding that the latter is important to consider for a wide range of ranking applications (eg online marketplaces, job placement, admissions). To address this need, we propose a general LTR framework that can optimize a wide range of utility metrics (eg NDCG) while satisfying fairness of exposure constraints with respect to the items. This framework expands the class of learnable ranking functions to stochastic ranking policies, which provides a language for rigorously expressing fairness specifications. Furthermore, we provide a new LTR algorithm called Fair-PG-Rank for directly searching the space of fair ranking policies via a policy-gradient approach. Beyond the theoretical evidence in deriving the framework and the algorithm, we provide empirical results on simulated and real-world datasets verifying the effectiveness of the approach in individual and group-fairness settings.</p>
+</div></div>
+<p>Ashudeep Singh and Thorsten Joachims. <br />
+<a href="https://dl.acm.org/doi/pdf/10.1145/3219819.3220088">Fairness of Exposure in Rankings</a>. <br />
+In Proceedings of KDD &rsquo;18: The 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (SIGKDD), August 19–23, 2018, London, United Kingdom. ACM, New York, NY, USA.<br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Rankings are ubiquitous in the online world today. As we have
+transitioned from finding books in libraries to ranking products,
+jobs, job applicants, opinions and potential romantic partners, there
+is a substantial precedent that ranking systems have a responsibility
+not only to their users but also to the items being ranked. To address
+these often conflicting responsibilities, we propose a conceptual and
+computational framework that allows the formulation of fairness
+constraints on rankings in terms of exposure allocation. As part of
+this framework, we develop efficient algorithms for finding rankings
+that maximize the utility for the user while provably satisfying a
+specifiable notion of fairness. Since fairness goals can be application
+specific, we show how a broad range of fairness constraints can be
+implemented using our framework, including forms of demographic
+parity, disparate treatment, and disparate impact constraints. We
+illustrate the effect of these constraints by providing empirical
+results on two ranking problems.</p>
+</div></div>
+<p>Ashudeep Singh, Thorsten Joachims. <br />
+<a href="https://www.k4all.org/wp-content/uploads/2017/09/WPOC2017_paper_9.pdf">Equality of Opportunity in Rankings</a>.<br />
+Workshop on Prioritising Online Content at NIPS 2017. <br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> With the ubiquity of algorithmic methods for ranking in systems like search engines, recommendations, and advertisements, it becomes essential to ensure that these systems do not impact different groups at different rates. In this work, we focus on defining the notions of fairness in such ranking scenarios in terms of the amount of exposure (opportunity) each item gets in its position while keeping in mind the protected groups. We formulate these definitions for protected groups of documents, queries as well as users.</p>
+</div></div>
+<p>Ashudeep Singh, Thorsten Joachims. <br />
+<a href="pubs/unbiased-embeddings.pdf">Learning item embeddings using biased feedback</a>. <br />
+Causal Inference and Machine Learning for Intelligent Decision Making Workshop at NIPS 2017. <br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Learning item embeddings from browsing logs of recommender systems provides
+intriguing opportunities for understanding user preferences. However, such log
+data can be severely biased because recommendations imply a selection bias on
+the number of clicks an item receives. This selection bias can lead to learned
+embeddings that are distorted by past recommendations and that do not reflect the
+true semantic similarity one would like to capture. To overcome this problem, we
+formulate the task of learning embeddings as a counterfactual learning problem:
+how would the user have clicked, if the recommendation algorithm had not interfered? To demonstrate effectiveness and promise of this approach, we present
+synthetic experiments that illustrate how the counterfactual learning approach can
+recover the true embeddings despite biased data.</p>
+</div></div>
+<p>Tobias Schnabel, Adith Swaminathan, Ashudeep Singh, Navin Chandak, Thorsten Joachims. <br />
+<a href="http://proceedings.mlr.press/v48/schnabel16.pdf">Recommendations as Treatments: Debiasing Learning and Evaluation</a>.<br />
+In Proceedings of The International Conference on Machine Learning (ICML), 2016.<br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Most data for evaluating and training recommender systems is subject to selection biases, either through self-selection by the users or through the actions of the recommendation system itself. In this paper, we provide a principled approach to handle selection biases by adapting models and estimation techniques from causal inference. The approach leads to unbiased performance estimators despite biased data, and to a matrix factorization method that provides substantially improved prediction performance on real-world data. We theoretically and empirically characterize the robustness of the approach, and find that it is highly practical and scalable.</p>
+</div></div>
 <p>David Adamson, Akash Bharadwaj, Ashudeep Singh, Colin Ashe, David Yaron, Carolyn P. Rosé.
 <br /><a href="pubs/its2014.pdf"><b>Predicting Student Learning from Conversational Cues</b></a>.
 <br />In Proceedings of 12th International Conference of Intelligent Tutoring Systems, Honolulu, HI, USA, June 5-9, 2014.</p>
@@ -46,8 +109,8 @@ student success, models derived from sequential discourse act labels are
 also predictive, both on their own and as a supplement to textual feature
 sets. Further, we find that evidence from the initial stages of a collaborative activity is just as effective as using the whole.</p>
 </div></div>
-<p>David Adamson, Divyanshu Bhartiya, Biman Gujral, Radhika Kedia, Ashudeep Singh, Carolyn P. Rosé. 
-<br /><a href="pubs/aied2013.pdf"><b>Automatically Generating Discussion Questions</b></a>. 
+<p>David Adamson, Divyanshu Bhartiya, Biman Gujral, Radhika Kedia, Ashudeep Singh, Carolyn P. Rosé.
+<br /><a href="pubs/aied2013.pdf"><b>Automatically Generating Discussion Questions</b></a>.
 <br />In Proceedings of 16th International Conference of Artificial Intelligence in Education (<a href="https://sites.google.com/a/iis.memphis.edu/aied-2013-conference/">AIED</a>), Memphis, TN, USA, July, 2013</p>
 <div class="infoblock">
 <div class="blockcontent">
@@ -70,7 +133,7 @@ than the baseline system.</p>
 </div></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-12-26 18:11:08 EST . Created using <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Last updated 2020-05-13 01:14:02 EDT . Created using <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
