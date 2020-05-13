@@ -40,7 +40,6 @@ document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" +
 <li><a href="https://github.com/ashudeep" class="fa fa-github solo"><span>Github</span></a></li>
 <!--li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li-->
 <li><a href="http://www.twitter.com/ashudeepsingh" class="fa fa-twitter solo"><span>Twitter</span></a></li>
-<li><a href="http://plus.google.com/+AshudeepSingh" class="fa fa-google-plus-square solo"><span>Google+</span></a></li>
 <li><a href="http://www.linkedin.com/in/ashudeepsingh" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
 <li><a href="http://instagram.com/ashudeep21" class="fa fa-instagram solo"><span>Instagram</span></a></li>
 </ul>
