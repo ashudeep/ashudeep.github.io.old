@@ -1,17 +1,21 @@
 # jemdoc: menu{MENU}{pubs.html}
 = Publications
-Marco Morik, Ashudeep Singh, Jessica Hong, Thorsten Joachims. \n
-[pubs/sigir2020_morik.pdf Controlling Fairness and Bias in Dynamic Ranking.] \n
-Accepted to ACM SIGIR 2020.\n
+
+Ashudeep Singh, Yoni Halpern, Nithum Thain, Konstantina Christakopoulou, Ed H. Chi, Jilin Chen and Alex Beutel. \n
+Building Healthy Recommendation Sequences for Everyone: A Safe Reinforcement Learning Approach.
+Accepted to [https://facctrec.github.io/facctrec2020/ FAccTRec Workshop at ACM RecSys 2020]. \n
+
+\n
+Marco Morik*, Ashudeep Singh*, Jessica Hong, Thorsten Joachims. (\* Equal Contribution.) \n
+[pubs/sigir2020_morik.pdf Controlling Fairness and Bias in Dynamic Learning-to-Rank.] \n
+In Proceedings of ACM SIGIR 2020. *Best Paper Award.*\n
 ~~~
 /Abstract:/ Rankings are the primary interface through which many online platforms match users to items (e.g. news, products, music, video). In these two-sided markets, not only the users draw utility from the rankings, but the rankings also determine the utility (e.g. exposure, revenue) for the item providers (e.g. publishers, sellers, artists, studios). It has already been noted that myopically optimizing utility to the users -- as done by virtually all learning-to-rank algorithms -- can be unfair to the item providers. We, therefore, present a learning-to-rank approach for explicitly enforcing merit-based fairness guarantees to groups of items (e.g. articles by the same publisher, tracks by the same artist). In particular, we propose a learning algorithm that ensures notions of amortized group fairness, while simultaneously learning the ranking function from implicit feedback data. The algorithm takes the form of a controller that integrates unbiased estimators for both fairness and utility, dynamically adapting both as more data becomes available. In addition to its rigorous theoretical foundation and convergence guarantees, we find empirically that the algorithm is highly practical and robust. 
 ~~~
 
-
-
 Ashudeep Singh and Thorsten Joachims. \n
 [https://papers.nips.cc/paper/8782-policy-learning-for-fairness-in-ranking Policy Learning for Fairness in Ranking]. \n
-In Proceedings of Neural Information Processing Systems (NeurIPS) 2019.
+In Proceedings of Neural Information Processing Systems (NeurIPS) 2019.\n
 ~~~
 /Abstract:/ Conventional Learning-to-Rank (LTR) methods optimize the utility of the rankings to the users, but they are oblivious to their impact on the ranked items. However, there has been a growing understanding that the latter is important to consider for a wide range of ranking applications (eg online marketplaces, job placement, admissions). To address this need, we propose a general LTR framework that can optimize a wide range of utility metrics (eg NDCG) while satisfying fairness of exposure constraints with respect to the items. This framework expands the class of learnable ranking functions to stochastic ranking policies, which provides a language for rigorously expressing fairness specifications. Furthermore, we provide a new LTR algorithm called Fair-PG-Rank for directly searching the space of fair ranking policies via a policy-gradient approach. Beyond the theoretical evidence in deriving the framework and the algorithm, we provide empirical results on simulated and real-world datasets verifying the effectiveness of the approach in individual and group-fairness settings.
 ~~~

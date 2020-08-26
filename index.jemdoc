@@ -13,10 +13,11 @@ Ph.D. Candidate, Department of Computer Science
 <li><a href="http://www.linkedin.com/in/ashudeepsingh" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
 </ul>}}
 
-- *New*: Our new paper [pubs/sigir2020_morik.pdf *Controlling Fairness and Bias in Dynamic Ranking*] has been accepted to [http://sigir.org/sigir2020/ ACM SIGIR 2020]. This is joint work with Marco Morik, Jessica Hong, Thorsten Joachims. \n
-- *New*: I am very fortunate to be working with Alex Beutel at Google AI on Responsible Recommendation systems research as a Research Intern during the spring.\n
+- *New*: Our new work on *Building Healthy Recommendation Sequences for Everyone: A Safe Reinforcement Learning Approach* has been accepted at FAccTRec workshop at ACM RecSys 2020 to be held from September 22-26, 2020. This is joint work with my collaborators at Google Research.
+- *New*: Our paper [https://arxiv.org/abs/2005.14713 *Controlling Fairness and Bias in Dynamic Learning-to-Rank*] has been awarded the Best Paper Award at the ACM SIGIR 2020 conference that was held virtually.
+- *New*: Our new paper [https://arxiv.org/abs/2005.14713 *Controlling Fairness and Bias in Dynamic Leanring-to-Rank*] has been accepted to [http://sigir.org/sigir2020/ ACM SIGIR 2020]. This is joint work with Marco Morik, Jessica Hong, Thorsten Joachims. \n
+- I am very fortunate to be working with [http://www.alexbeutel.com Alex Beutel] at Google AI on Responsible Recommendation systems research as a Research Intern during the spring.\n
 - Our new paper on [https://arxiv.org/abs/1902.04056 *Policy Learning for Fairness in Ranking*] has been accepted to NeurIPS 2019. We present a policy optimization approach for learning-to-rank and apply it to learning in the presence of fairness constraints. \n
-- I have the pleasure of working with [http://fernando.diaz.nyc/ Fernando Diaz] and the [https://www.microsoft.com/en-us/research/group/fate/ FATE: Fairness, Accountability, Transparency, and Ethics in AI] team at Microsoft Research Montreal during the summer of 2019.
 ~~~
 
 == About Me
