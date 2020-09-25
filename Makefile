@@ -1,7 +1,6 @@
 all:	index.html contact.html courses.html \
 	projects.html internships.html extracurrics.html\
-	 acads.html publications.html awards.html\
-	 resume.html
+	 acads.html publications.html awards.html
 
 index.html:	index.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o index.html index
