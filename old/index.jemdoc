@@ -1,0 +1,30 @@
+# jemdoc: menu{MENU}{index.html}
+= Ashudeep Singh
+
+~~~
+{}{img_left}{images/propic_13.jpeg}{Ashudeep Singh}{360px}
+Ph.D. Candidate, Department of Computer Science
+\nCornell University, Ithaca, NY
+\n\n[contact.html Contact]: [mail@ashudeepsingh.com]\n\n
+{{<ul class="icons">
+<li><a href="https://www.facebook.com/ashudeep.singh" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+<li><a href="https://github.com/ashudeep" class="fa fa-github solo"><span>Github</span></a></li>
+<li><a href="http://www.twitter.com/AshudeepSingh" class="fa fa-twitter-square solo"><span>Google+</span></a></li>
+<li><a href="http://www.linkedin.com/in/ashudeepsingh" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
+</ul>}}
+
+- I will be on the job market this fall seeking full-time roles starting Summer/Fall 2021. Relevant material will be posted here soon.\n
+- [https://news.cornell.edu/stories/2020/08/algorithm-improves-fairness-search-results Cornell Chronicle] and [https://cacm.acm.org/news/246857-algorithm-improves-fairness-of-search-results/fulltext Communications of the ACM (CACM)] covered a story about our SIGIR 2020 paper *Controlling Fairness and Bias in Dynamic Learning-to-Rank*. \n
+- *New*: Our new work on *Building Healthy Recommendation Sequences for Everyone: A Safe Reinforcement Learning Approach* has been accepted at FAccTRec workshop at ACM RecSys 2020 to be held from September 22-26, 2020. This is joint work with my collaborators at Google Research.\n
+- *New*: Our paper [https://arxiv.org/abs/2005.14713 *Controlling Fairness and Bias in Dynamic Learning-to-Rank*] has been awarded the Best Paper Award at the ACM SIGIR 2020 conference that was held virtually.
+- Our new paper [https://arxiv.org/abs/2005.14713 *Controlling Fairness and Bias in Dynamic Learning-to-Rank*] has been accepted to [http://sigir.org/sigir2020/ ACM SIGIR 2020]. This is joint work with Marco Morik, Jessica Hong, Thorsten Joachims. \n
+- I am very fortunate to be working with [http://www.alexbeutel.com Alex Beutel] at Google AI on Responsible Recommendation systems research as a Research Intern during the spring.\n
+~~~
+
+== About Me
+I am a Ph.D. Candidate in the department of Computer Science at Cornell University advised by Prof. *[http://joachims.org Thorsten Joachims]*. I am particularly interested in Machine Learning for interactive systems thinking about fairness and accountability aspects of such systems and designing related algorithms. I am also fortunate to have Solon Barocas, Karthik Sridharan and David Mimno on my dissertation committee. During my Ph.D., I have also spent time working in the industry through my internships at Google, Microsoft Research and Facebook.
+
+Before arriving at Cornell, I completed my B.Tech.-M.Tech. dual degree in IIT Kanpur (India) where I worked with Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]. During my undergrad, I also worked with Prof. [http://www.cs.cmu.edu/~cprose/ Carolyn Rosé] on studying natural language aspects of collaborative learning agents at Carnegie Mellon University as a summer intern. I spent most of my childhood in the beautiful city of [http://en.wikipedia.org/wiki/Chandigarh Chandigarh] and then spent five wonderful years of my life at [www.iitk.ac.in IIT Kanpur] before moving to Cornell to start my PhD. I love to hike in the nature, go camping and do [http://www.instagram.com/ashudeep21 photography].
+
+
+\n\n(For more updated information, please contact me via email.)\n

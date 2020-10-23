@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<META name="description" content="Ashudeep Singh, PhD Student, Computer Science, Cornell University. Works in Machine learning.">
+<META name="keywords" content="ashudeep, singh, iitk, cse, chandigarh, mohali, hall 9, ashu, ashudeep singh, iitk.ac.in, machine learning, nlp, natural language processing, ML, ithaca, cornell, computer science, ny, cornell university">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("courses").toggle();
+  });
+});
+</script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300|Ubuntu:300|Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+<title>Publications</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category"><div class="menu-head">Ashudeep Singh</div></div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="Resume_Ashudeep.pdf">Resume</a></div>
+<div class="menu-item"><a href="contact.html">Contact</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Publications</h1>
+</div>
+<p>Ashudeep Singh, Yoni Halpern, Nithum Thain, Konstantina Christakopoulou, Ed H. Chi, Jilin Chen and Alex Beutel. <br />
+<a href="publications/facctrec2020_singh_et_al.pdf">Building Healthy Recommendation Sequences for Everyone: A Safe Reinforcement Learning Approach.</a>
+Accepted to <a href="https://facctrec.github.io/facctrec2020/">FAccTRec Workshop at ACM RecSys 2020</a>. <br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> A key consideration in the design of recommender systems is the long term well-being of users. In this work, we formalize this challenge as a multi-objective, safe reinforcement learning problem, balancing positive user feedback and the &ldquo;healthiness&rdquo; of user trajectories. We note that in some cases, naively balancing these objectives can lead to unhealthy experiences, even if unlikely, still occurring in a small subset of users leading us to examine a distributional notion of recommendation safety. Thus, we propose a reinforcement learning approach that optimizes for positive feedback from users while simultaneously optimizing for the health of worst-case users to remain high. To empirically validate our method, we develop a novel research simulation environment motivated by a movie recommendation setting that considers exposure to violence as a proxy for unhealthy recommendations. We demonstrate how our method reduces unhealthy recommendations to the most vulnerable users, without sacrificing much user satisfaction. </p>
+</div></div>
+<p><br />
+Marco Morik<b>, Ashudeep Singh</b>, Jessica Hong, Thorsten Joachims. (* Equal Contribution.) <br />
+<a href="publications/sigir2020_morik.pdf">Controlling Fairness and Bias in Dynamic Learning-to-Rank.</a> <br />
+In Proceedings of ACM SIGIR 2020. <b>Best Paper Award.</b><br />
+Press: <a href="https://news.cornell.edu/stories/2020/08/algorithm-improves-fairness-search-results">Cornell Chronicle</a>, <a href="https://cacm.acm.org/news/246857-algorithm-improves-fairness-of-search-results/fulltext">Communications of the ACM (CACM)</a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Rankings are the primary interface through which many online platforms match users to items (e.g. news, products, music, video). In these two-sided markets, not only the users draw utility from the rankings, but the rankings also determine the utility (e.g. exposure, revenue) for the item providers (e.g. publishers, sellers, artists, studios). It has already been noted that myopically optimizing utility to the users &ndash; as done by virtually all learning-to-rank algorithms &ndash; can be unfair to the item providers. We, therefore, present a learning-to-rank approach for explicitly enforcing merit-based fairness guarantees to groups of items (e.g. articles by the same publisher, tracks by the same artist). In particular, we propose a learning algorithm that ensures notions of amortized group fairness, while simultaneously learning the ranking function from implicit feedback data. The algorithm takes the form of a controller that integrates unbiased estimators for both fairness and utility, dynamically adapting both as more data becomes available. In addition to its rigorous theoretical foundation and convergence guarantees, we find empirically that the algorithm is highly practical and robust. </p>
+</div></div>
+<p>Ashudeep Singh and Thorsten Joachims. <br />
+<a href="https://papers.nips.cc/paper/8782-policy-learning-for-fairness-in-ranking">Policy Learning for Fairness in Ranking</a>. <br />
+In Proceedings of Neural Information Processing Systems (NeurIPS) 2019.<br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Conventional Learning-to-Rank (LTR) methods optimize the utility of the rankings to the users, but they are oblivious to their impact on the ranked items. However, there has been a growing understanding that the latter is important to consider for a wide range of ranking applications (eg online marketplaces, job placement, admissions). To address this need, we propose a general LTR framework that can optimize a wide range of utility metrics (eg NDCG) while satisfying fairness of exposure constraints with respect to the items. This framework expands the class of learnable ranking functions to stochastic ranking policies, which provides a language for rigorously expressing fairness specifications. Furthermore, we provide a new LTR algorithm called Fair-PG-Rank for directly searching the space of fair ranking policies via a policy-gradient approach. Beyond the theoretical evidence in deriving the framework and the algorithm, we provide empirical results on simulated and real-world datasets verifying the effectiveness of the approach in individual and group-fairness settings.</p>
+</div></div>
+<p>Ashudeep Singh and Thorsten Joachims. <br />
+<a href="https://dl.acm.org/doi/pdf/10.1145/3219819.3220088">Fairness of Exposure in Rankings</a>. <br />
+In Proceedings of KDD &rsquo;18: The 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (SIGKDD), August 19–23, 2018, London, United Kingdom. ACM, New York, NY, USA.<br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Rankings are ubiquitous in the online world today. As we have
+transitioned from finding books in libraries to ranking products,
+jobs, job applicants, opinions and potential romantic partners, there
+is a substantial precedent that ranking systems have a responsibility
+not only to their users but also to the items being ranked. To address
+these often conflicting responsibilities, we propose a conceptual and
+computational framework that allows the formulation of fairness
+constraints on rankings in terms of exposure allocation. As part of
+this framework, we develop efficient algorithms for finding rankings
+that maximize the utility for the user while provably satisfying a
+specifiable notion of fairness. Since fairness goals can be application
+specific, we show how a broad range of fairness constraints can be
+implemented using our framework, including forms of demographic
+parity, disparate treatment, and disparate impact constraints. We
+illustrate the effect of these constraints by providing empirical
+results on two ranking problems.</p>
+</div></div>
+<p>Ashudeep Singh, Thorsten Joachims. <br />
+<a href="https://www.k4all.org/wp-content/uploads/2017/09/WPOC2017_paper_9.pdf">Equality of Opportunity in Rankings</a>.<br />
+Workshop on Prioritising Online Content at NIPS 2017. <br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> With the ubiquity of algorithmic methods for ranking in systems like search engines, recommendations, and advertisements, it becomes essential to ensure that these systems do not impact different groups at different rates. In this work, we focus on defining the notions of fairness in such ranking scenarios in terms of the amount of exposure (opportunity) each item gets in its position while keeping in mind the protected groups. We formulate these definitions for protected groups of documents, queries as well as users.</p>
+</div></div>
+<p>Ashudeep Singh, Thorsten Joachims. <br />
+<a href="publications/unbiased-embeddings.pdf">Learning item embeddings using biased feedback</a>. <br />
+Causal Inference and Machine Learning for Intelligent Decision Making Workshop at NIPS 2017. <br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Learning item embeddings from browsing logs of recommender systems provides
+intriguing opportunities for understanding user preferences. However, such log
+data can be severely biased because recommendations imply a selection bias on
+the number of clicks an item receives. This selection bias can lead to learned
+embeddings that are distorted by past recommendations and that do not reflect the
+true semantic similarity one would like to capture. To overcome this problem, we
+formulate the task of learning embeddings as a counterfactual learning problem:
+how would the user have clicked, if the recommendation algorithm had not interfered? To demonstrate effectiveness and promise of this approach, we present
+synthetic experiments that illustrate how the counterfactual learning approach can
+recover the true embeddings despite biased data.</p>
+</div></div>
+<p>Tobias Schnabel, Adith Swaminathan, Ashudeep Singh, Navin Chandak, Thorsten Joachims. <br />
+<a href="http://proceedings.mlr.press/v48/schnabel16.pdf">Recommendations as Treatments: Debiasing Learning and Evaluation</a>.<br />
+In Proceedings of The International Conference on Machine Learning (ICML), 2016.<br /></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Most data for evaluating and training recommender systems is subject to selection biases, either through self-selection by the users or through the actions of the recommendation system itself. In this paper, we provide a principled approach to handle selection biases by adapting models and estimation techniques from causal inference. The approach leads to unbiased performance estimators despite biased data, and to a matrix factorization method that provides substantially improved prediction performance on real-world data. We theoretically and empirically characterize the robustness of the approach, and find that it is highly practical and scalable.</p>
+</div></div>
+<p>David Adamson, Akash Bharadwaj, Ashudeep Singh, Colin Ashe, David Yaron, Carolyn P. Rosé.
+<br /><a href="publications/its2014.pdf"><b>Predicting Student Learning from Conversational Cues</b></a>.
+<br />In Proceedings of 12th International Conference of Intelligent Tutoring Systems, Honolulu, HI, USA, June 5-9, 2014.</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> In the work here presented, we apply textual and sequential
+methods to assess the outcomes of an unconstrained multiparty dialogue.
+In the context of chat transcripts from a collaborative learning scenario,
+we demonstrate that while low-level textual features can indeed predict
+student success, models derived from sequential discourse act labels are
+also predictive, both on their own and as a supplement to textual feature
+sets. Further, we find that evidence from the initial stages of a collaborative activity is just as effective as using the whole.</p>
+</div></div>
+<p>David Adamson, Divyanshu Bhartiya, Biman Gujral, Radhika Kedia, Ashudeep Singh, Carolyn P. Rosé.
+<br /><a href="publications/aied2013.pdf"><b>Automatically Generating Discussion Questions</b></a>.
+<br />In Proceedings of 16th International Conference of Artificial Intelligence in Education (<a href="https://sites.google.com/a/iis.memphis.edu/aied-2013-conference/">AIED</a>), Memphis, TN, USA, July, 2013</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Automatic question generation can support instruction and
+learning. However, work to date has produced mostly “shallow” questions
+that fall short of supporting deep learning and discussion. We propose
+an extension to a state-of-the-art question generation system that allows
+it to produce deep, subjective questions suitable for group discussion.
+We evaluate the questions generated by this system against a panel of
+experienced judges, and find that our approach fares significantly better
+than the baseline system.</p>
+</div></div>
+<h2>Pre-prints</h2>
+<p>Divyanshu Bhartiya, Ashudeep Singh
+<br /><a href="publications/summarization.pdf"><b>A Semantic Approach to Summarization</b></a>
+<br />CoRR: <a href="http://arxiv.org/abs/1406.1203">1406.1203</a>[cs.CL]</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><i>Abstract:</i> Sentence extraction based summarization has some limitations as it doesn't go into the semantics of the document. Also, it lacks the capability of sentence generation which is intuitive to humans. Here we present a novel method to summarize text documents taking the process to semantic levels with the use of WordNet and other resources, and using a technique for sentence generation. We involve semantic role labeling to get the semantic representation of text and use of segmentation to form clusters of the related pieces of text. Picking out the centroids and sentence generation completes the task. We evaluate our system against human composed summaries and also present an evaluation done by humans to measure the quality attributes of our summaries.</p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-09-26 02:00:52 EDT . Created using <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56982603-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
